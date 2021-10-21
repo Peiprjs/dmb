@@ -12,4 +12,5 @@ function sleep(milliseconds) {
     do {
         currentDate = Date.now();
     } while (currentDate - date < milliseconds);
-}
+};
+console.log("Gay")
