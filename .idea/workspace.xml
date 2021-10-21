@@ -7,12 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5090870-5043-40c5-a1cc-a4d69329e330" name="Changes" comment="Start">
-      <changelist_data name="Peipr" email="proca001@jvvgirona.eu" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="f5090870-5043-40c5-a1cc-a4d69329e330" name="Changes" comment="Okay here it all begins" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +27,11 @@
         </map>
       </branch-storage>
     </favorite-branches>
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Peipr &lt;proca001@jvvgirona.eu&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -78,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634799275742</updated>
       <workItem from="1634799278305" duration="37000" />
-      <workItem from="1634799409773" duration="5552000" />
+      <workItem from="1634799409773" duration="5856000" />
     </task>
     <task id="LOCAL-00001" summary="Commit message">
       <created>1634800760608</created>
@@ -101,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634803397588</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Okay here it all begins">
+      <created>1634805305863</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634805305863</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +128,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit message" />
     <MESSAGE value="Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Okay here it all begins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Okay here it all begins" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
