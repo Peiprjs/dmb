@@ -7,8 +7,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5090870-5043-40c5-a1cc-a4d69329e330" name="Changes" comment="">
+    <list default="true" id="bf80f112-ef9e-4c16-8398-0cec5a3aee12" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dmb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/ping.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy-test-commands.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-commands.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,24 +23,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <favorite-branches>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="main" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </favorite-branches>
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="Peipr &lt;proca001@jvvgirona.eu&gt;" />
-      </list>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -44,7 +33,10 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProjectId" id="1zo0kPzm45fmIkodBR7s4NA6cwu" />
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
+  </component>
+  <component name="ProjectId" id="1zoPdhEqUGqp38Lxiz8v0Xjn7RG" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -53,106 +45,55 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="JavaScript" />
-    <property name="last_opened_file_path" value="$USER_HOME$/bin/nodejs/node-v16.12.0-win-x64/node.exe" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.12.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path" value="$USER_HOME$/bin/nodejs/node-v16.12.0-win-x64/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PolRocaCugat\Documents\GitHub\dmb" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.Build commands">
+    <configuration name="Build commands" type="NodeJSConfigurationType" path-to-js-file="deploy-commands.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.index.js" />
-      </list>
-    </recent_temporary>
+    <configuration name="Build test commands" type="NodeJSConfigurationType" path-to-js-file="deploy-test-commands.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="Start" type="NodeJSConfigurationType" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.Start" />
+      <item itemvalue="Node.js.Build commands" />
+      <item itemvalue="Node.js.Build test commands" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f5090870-5043-40c5-a1cc-a4d69329e330" name="Changes" comment="" />
-      <created>1634799275742</created>
+      <changelist id="bf80f112-ef9e-4c16-8398-0cec5a3aee12" name="Changes" comment="" />
+      <created>1634811566370</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1634799275742</updated>
-      <workItem from="1634799278305" duration="37000" />
-      <workItem from="1634799409773" duration="10379000" />
+      <updated>1634811566370</updated>
+      <workItem from="1634811572680" duration="5941000" />
     </task>
-    <task id="LOCAL-00001" summary="Commit message">
-      <created>1634800760608</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1634800760608</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Start">
-      <created>1634801474020</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1634801474020</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Start">
-      <created>1634803397588</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1634803397588</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Okay here it all begins">
-      <created>1634805305863</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1634805305863</updated>
-    </task>
-    <task id="LOCAL-00005" summary="IDK something it autodid">
-      <created>1634805373097</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1634805373097</updated>
-    </task>
-    <task id="LOCAL-00006" summary="IDK">
-      <created>1634805397205</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1634805397205</updated>
-    </task>
-    <task id="LOCAL-00007" summary="There we go, some annoying bugs.">
-      <created>1634805766718</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1634805766718</updated>
-    </task>
-    <task id="LOCAL-00008" summary="something">
-      <created>1634807067430</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1634807067430</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Staging slash commands">
-      <created>1634809538943</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1634809538943</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,16 +111,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit message" />
-    <MESSAGE value="Start" />
-    <MESSAGE value="Okay here it all begins" />
-    <MESSAGE value="IDK something it autodid" />
-    <MESSAGE value="IDK" />
-    <MESSAGE value="There we go, some annoying bugs." />
-    <MESSAGE value="something" />
-    <MESSAGE value="Staging slash commands" />
-    <option name="LAST_COMMIT_MESSAGE" value="Staging slash commands" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
