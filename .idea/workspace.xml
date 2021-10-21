@@ -7,10 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf80f112-ef9e-4c16-8398-0cec5a3aee12" name="Changes" comment="WHAT THE FUCK IS GOING ON">
-      <change afterPath="$PROJECT_DIR$/commands/invite.js" afterDir="false" />
+    <list default="true" id="bf80f112-ef9e-4c16-8398-0cec5a3aee12" name="Changes" comment="Added /invite">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/ping.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/ping.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/invite.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/invite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-commands.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-test-commands.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,7 @@
     </file-type-list>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedIndex" value="2" />
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1zoPdhEqUGqp38Lxiz8v0Xjn7RG" />
   <component name="ProjectLevelVcsManager">
@@ -64,11 +66,11 @@
       <recent name="C:\Users\PolRocaCugat\Documents\GitHub\dmb" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.Start">
-    <configuration name="Build commands" type="NodeJSConfigurationType" path-to-js-file="deploy-commands.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Node.js.Build test commands">
+    <configuration name="Build commands" type="NodeJSConfigurationType" path-to-js-file="deploy-prod-commands.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="Build test commands" type="NodeJSConfigurationType" path-to-js-file="deploy-test-commands.js" working-dir="$PROJECT_DIR$">
+    <configuration name="Build test commands" type="NodeJSConfigurationType" path-to-js-file="deploy-staging-commands.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="Start" type="NodeJSConfigurationType" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
@@ -88,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634811566370</updated>
-      <workItem from="1634811572680" duration="8893000" />
+      <workItem from="1634811572680" duration="11314000" />
     </task>
     <task id="LOCAL-00001" summary="WHAT THE FUCK IS GOING ON">
       <created>1634830649226</created>
@@ -97,7 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634830649226</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added /invite">
+      <created>1634839424375</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634839424375</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added /invite">
+      <created>1634839430263</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1634839430263</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +133,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="WHAT THE FUCK IS GOING ON" />
-    <option name="LAST_COMMIT_MESSAGE" value="WHAT THE FUCK IS GOING ON" />
+    <MESSAGE value="Added /invite" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added /invite" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

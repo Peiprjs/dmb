@@ -1,4 +1,6 @@
 /////////////////ND Modules///////////////////
+// noinspection JSUnusedLocalSymbols
+
 const fs = require('fs');
 const random = require('random')
 function sleep(milliseconds) {
@@ -30,6 +32,7 @@ client.once('ready', () => {
 client.on('interactionCreate', async interaction => {
     if (!interaction.isCommand()) return;
 
+    // noinspection JSUnresolvedVariable
     const command = client.commands.get(interaction.commandName);
 
     if (!command) return;
@@ -38,8 +41,10 @@ client.on('interactionCreate', async interaction => {
         await command.execute(interaction);
     } catch (error) {
         console.error(error);
+        // noinspection JSUnresolvedFunction
         await interaction.reply({ content: 'Whoopsies! Something broke', ephemeral: true });
     }
 });
 /////////////////LogMeIntoDiscordAndBeyond///////////////////
+// noinspection JSIgnoredPromiseFromCall
 client.login(token);
