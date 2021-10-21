@@ -19,7 +19,6 @@
   "dependencies": {
     "cli-progress": "^3.9.1",
     "discord.js": "^13.2.0",
-    "random": "^3.0.6",
-    "trello": "^0.10.0"
+    "random": "^3.0.6"
   }
 }
