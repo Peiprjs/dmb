@@ -7,9 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5090870-5043-40c5-a1cc-a4d69329e330" name="Changes" comment="something">
+    <list default="true" id="f5090870-5043-40c5-a1cc-a4d69329e330" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy-commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-commands.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +43,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1zo0kPzm45fmIkodBR7s4NA6cwu" />
   <component name="ProjectLevelVcsManager">
@@ -91,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634799275742</updated>
       <workItem from="1634799278305" duration="37000" />
-      <workItem from="1634799409773" duration="9042000" />
+      <workItem from="1634799409773" duration="10379000" />
     </task>
     <task id="LOCAL-00001" summary="Commit message">
       <created>1634800760608</created>
@@ -149,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634807067430</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Staging slash commands">
+      <created>1634809538943</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1634809538943</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +177,8 @@
     <MESSAGE value="IDK" />
     <MESSAGE value="There we go, some annoying bugs." />
     <MESSAGE value="something" />
-    <option name="LAST_COMMIT_MESSAGE" value="something" />
+    <MESSAGE value="Staging slash commands" />
+    <option name="LAST_COMMIT_MESSAGE" value="Staging slash commands" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
