@@ -7,8 +7,610 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5090870-5043-40c5-a1cc-a4d69329e330" name="Changes" comment="IDK">
+    <list default="true" id="f5090870-5043-40c5-a1cc-a4d69329e330" name="Changes" comment="There we go, some annoying bugs.">
+      <change afterPath="$PROJECT_DIR$/deploy-commands.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/index.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/index.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/index.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/Assertions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/Assertions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/Assertions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/Assertions.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandBuilder.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandBuilder.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandBuilder.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandBuilder.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandBuilder.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandBuilder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandBuilder.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandBuilder.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandSubcommands.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandSubcommands.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandSubcommands.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandSubcommands.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandSubcommands.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandSubcommands.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandSubcommands.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/SlashCommandSubcommands.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptionBase.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptionBase.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptionBase.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptionBase.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptionBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptionBase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptionBase.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptionBase.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptionWithChoices.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptionWithChoices.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptionWithChoices.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptionWithChoices.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptionWithChoices.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptionWithChoices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptionWithChoices.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptionWithChoices.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/CommandOptions.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/NameAndDescription.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/NameAndDescription.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/NameAndDescription.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/mixins/NameAndDescription.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/options/channel.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/options/channel.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/options/channel.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/options/channel.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/options/channel.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/options/channel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/options/channel.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/interactions/slashCommands/options/channel.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/messages/embed/Assertions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/messages/embed/Assertions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/messages/embed/Assertions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/messages/embed/Assertions.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/messages/embed/Embed.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/messages/embed/Embed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/messages/embed/Embed.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/dist/messages/embed/Embed.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/common.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/common.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/common.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/index.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/v6.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/v6.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/v6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/v6.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/v6.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/v8.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/v8.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/v8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/v8.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/v8.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/v9.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/v9.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/v9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/v9.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/gateway/v9.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/globals.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/globals.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/globals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/globals.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/globals.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/index.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/auditLog.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/auditLog.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/auditLog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/auditLog.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/channel.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/channel.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/channel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/channel.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/emoji.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/emoji.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/emoji.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/emoji.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/gateway.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/gateway.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/gateway.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/gateway.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/guild.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/guild.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/guild.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/guild.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/index.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/invite.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/invite.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/invite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/invite.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/oauth2.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/oauth2.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/oauth2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/oauth2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/permissions.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/permissions.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/permissions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/permissions.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/teams.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/teams.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/teams.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/teams.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/user.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/user.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/user.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/voice.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/voice.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/voice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/voice.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/webhook.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/webhook.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/webhook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v6/webhook.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/_interactions/base.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/_interactions/base.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/_interactions/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/_interactions/base.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/_interactions/messageComponents.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/_interactions/messageComponents.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/_interactions/messageComponents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/_interactions/messageComponents.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/_interactions/ping.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/_interactions/ping.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/_interactions/ping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/_interactions/ping.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/_interactions/responses.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/_interactions/responses.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/_interactions/responses.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/_interactions/responses.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/_interactions/slashCommands.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/_interactions/slashCommands.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/_interactions/slashCommands.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/_interactions/slashCommands.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/application.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/application.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/application.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/auditLog.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/auditLog.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/auditLog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/auditLog.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/channel.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/channel.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/channel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/channel.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/emoji.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/emoji.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/emoji.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/emoji.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/gateway.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/gateway.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/gateway.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/gateway.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/guild.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/guild.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/guild.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/guild.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/index.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/interactions.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/interactions.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/interactions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/interactions.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/invite.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/invite.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/invite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/invite.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/oauth2.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/oauth2.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/oauth2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/oauth2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/permissions.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/permissions.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/permissions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/permissions.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/stageInstance.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/stageInstance.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/stageInstance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/stageInstance.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/sticker.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/sticker.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/sticker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/sticker.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/teams.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/teams.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/teams.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/teams.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/template.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/template.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/template.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/user.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/user.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/user.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/voice.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/voice.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/voice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/voice.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/webhook.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/webhook.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/webhook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v8/webhook.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/_interactions/base.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/_interactions/base.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/_interactions/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/_interactions/base.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/_interactions/messageComponents.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/_interactions/messageComponents.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/_interactions/messageComponents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/_interactions/messageComponents.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/_interactions/ping.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/_interactions/ping.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/_interactions/ping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/_interactions/ping.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/_interactions/responses.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/_interactions/responses.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/_interactions/responses.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/_interactions/responses.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/_interactions/slashCommands.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/_interactions/slashCommands.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/_interactions/slashCommands.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/_interactions/slashCommands.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/application.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/application.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/application.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/auditLog.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/auditLog.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/auditLog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/auditLog.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/channel.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/channel.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/channel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/channel.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/emoji.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/emoji.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/emoji.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/emoji.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/gateway.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/gateway.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/gateway.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/gateway.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/guild.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/guild.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/guild.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/guild.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/index.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/interactions.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/interactions.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/interactions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/interactions.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/invite.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/invite.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/invite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/invite.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/oauth2.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/oauth2.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/oauth2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/oauth2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/permissions.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/permissions.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/permissions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/permissions.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/stageInstance.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/stageInstance.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/stageInstance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/stageInstance.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/sticker.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/sticker.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/sticker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/sticker.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/teams.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/teams.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/teams.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/teams.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/template.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/template.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/template.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/user.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/user.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/user.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/voice.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/voice.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/voice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/voice.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/webhook.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/webhook.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/webhook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/payloads/v9/webhook.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/common.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/common.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/common.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/index.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/auditLog.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/auditLog.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/auditLog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/auditLog.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/channel.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/channel.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/channel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/channel.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/emoji.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/emoji.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/emoji.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/emoji.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/gateway.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/gateway.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/gateway.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/gateway.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/guild.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/guild.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/guild.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/guild.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/index.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/invite.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/invite.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/invite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/invite.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/oauth2.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/oauth2.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/oauth2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/oauth2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/user.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/user.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/user.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/voice.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/voice.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/voice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/voice.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/webhook.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/webhook.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/webhook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v6/webhook.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/auditLog.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/auditLog.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/auditLog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/auditLog.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/channel.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/channel.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/channel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/channel.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/emoji.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/emoji.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/emoji.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/emoji.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/gateway.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/gateway.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/gateway.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/gateway.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/guild.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/guild.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/guild.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/guild.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/index.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/interactions.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/interactions.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/interactions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/interactions.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/invite.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/invite.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/invite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/invite.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/oauth2.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/oauth2.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/oauth2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/oauth2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/stageInstance.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/stageInstance.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/stageInstance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/stageInstance.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/sticker.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/sticker.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/sticker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/sticker.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/template.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/template.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/template.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/user.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/user.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/user.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/voice.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/voice.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/voice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/voice.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/webhook.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/webhook.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/webhook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v8/webhook.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/auditLog.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/auditLog.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/auditLog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/auditLog.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/channel.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/channel.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/channel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/channel.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/emoji.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/emoji.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/emoji.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/emoji.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/gateway.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/gateway.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/gateway.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/gateway.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/guild.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/guild.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/guild.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/guild.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/index.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/interactions.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/interactions.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/interactions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/interactions.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/invite.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/invite.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/invite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/invite.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/oauth2.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/oauth2.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/oauth2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/oauth2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/stageInstance.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/stageInstance.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/stageInstance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/stageInstance.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/sticker.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/sticker.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/sticker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/sticker.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/template.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/template.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/template.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/user.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/user.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/user.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/voice.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/voice.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/voice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/voice.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/webhook.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/webhook.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/webhook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rest/v9/webhook.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rpc/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rpc/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rpc/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rpc/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rpc/index.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rpc/v8.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rpc/v8.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rpc/v8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rpc/v8.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rpc/v8.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rpc/v9.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rpc/v9.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rpc/v9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rpc/v9.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/rpc/v9.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/utils/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/utils/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/utils/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/utils/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/utils/index.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/utils/internals.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/utils/internals.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/utils/internals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/utils/internals.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/utils/v8.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/utils/v8.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/utils/v8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/utils/v8.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/utils/v8.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/utils/v9.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/utils/v9.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/utils/v9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/utils/v9.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/utils/v9.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/v6.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/v6.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/v6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/v6.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/v6.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/v8.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/v8.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/v8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/v8.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/v8.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/v9.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/v9.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/v9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/v9.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/v9.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/voice/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/voice/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/voice/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/voice/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/voice/index.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/voice/v4.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/voice/v4.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/voice/v4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/voice/v4.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/node_modules/discord-api-types/voice/v4.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@discordjs/builders/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@discordjs/builders/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/_interactions/_applicationCommands/chatInput.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/_interactions/_applicationCommands/chatInput.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/_interactions/_applicationCommands/chatInput.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/_interactions/_applicationCommands/chatInput.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/_interactions/_applicationCommands/chatInput.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/_interactions/_applicationCommands/chatInput.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/channel.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/channel.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/channel.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/channel.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/channel.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/channel.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/guild.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/guild.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/guild.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/guild.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/guild.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/guild.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/guild.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/guild.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/permissions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/permissions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/permissions.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/permissions.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/permissions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/permissions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/permissions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/permissions.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/voice.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/voice.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/voice.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v8/voice.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/_interactions/_applicationCommands/chatInput.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/_interactions/_applicationCommands/chatInput.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/_interactions/_applicationCommands/chatInput.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/_interactions/_applicationCommands/chatInput.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/_interactions/_applicationCommands/chatInput.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/_interactions/_applicationCommands/chatInput.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/_interactions/applicationCommands.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/_interactions/applicationCommands.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/_interactions/applicationCommands.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/_interactions/applicationCommands.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/channel.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/channel.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/channel.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/channel.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/channel.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/channel.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/guild.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/guild.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/guild.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/guild.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/guild.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/guild.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/guild.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/guild.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/permissions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/permissions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/permissions.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/permissions.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/permissions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/permissions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/permissions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/permissions.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/voice.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/voice.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/voice.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/payloads/v9/voice.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/common.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/common.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/common.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/common.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/common.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/common.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v8/guild.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v8/guild.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v8/guild.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v8/guild.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v8/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v8/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v8/index.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v8/index.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v8/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v8/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v8/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v8/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v9/guild.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v9/guild.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v9/guild.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v9/guild.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v9/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v9/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v9/index.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v9/index.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v9/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v9/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v9/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord-api-types/rest/v9/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +692,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634799275742</updated>
       <workItem from="1634799278305" duration="37000" />
-      <workItem from="1634799409773" duration="6008000" />
+      <workItem from="1634799409773" duration="7514000" />
     </task>
     <task id="LOCAL-00001" summary="Commit message">
       <created>1634800760608</created>
@@ -134,7 +736,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634805397205</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="There we go, some annoying bugs.">
+      <created>1634805766718</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1634805766718</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +766,8 @@
     <MESSAGE value="Okay here it all begins" />
     <MESSAGE value="IDK something it autodid" />
     <MESSAGE value="IDK" />
-    <option name="LAST_COMMIT_MESSAGE" value="IDK" />
+    <MESSAGE value="There we go, some annoying bugs." />
+    <option name="LAST_COMMIT_MESSAGE" value="There we go, some annoying bugs." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
