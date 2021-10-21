@@ -1,10 +1,6 @@
-/////////////////Modules, logins///////////////////
+/////////////////ND Modules///////////////////
 const fs = require('fs');
-const { Client, Intents } = require('discord.js');
-const { token } = require('./config.json');
-const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 const random = require('random')
-const cliProgress = require('cli-progress');
 function sleep(milliseconds) {
     const date = Date.now();
     let currentDate = null;
@@ -12,7 +8,13 @@ function sleep(milliseconds) {
         currentDate = Date.now();
     } while (currentDate - date < milliseconds);
 }
+/////////////////Discord Modules///////////////////
+const { Client, Intents } = require('discord.js');
+const { token } = require('./config.json');
+const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 /////////////////Once ready///////////////////
 client.once('ready', () => {
     console.log('Ready!');
-    client.login(token)});
+});
+
+client.login(token);

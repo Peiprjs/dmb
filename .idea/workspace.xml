@@ -7,8 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5090870-5043-40c5-a1cc-a4d69329e330" name="Changes" comment="IDK something it autodid">
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    <list default="true" id="f5090870-5043-40c5-a1cc-a4d69329e330" name="Changes" comment="IDK">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +71,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634799275742</updated>
       <workItem from="1634799278305" duration="37000" />
-      <workItem from="1634799409773" duration="5910000" />
+      <workItem from="1634799409773" duration="6008000" />
     </task>
     <task id="LOCAL-00001" summary="Commit message">
       <created>1634800760608</created>
@@ -117,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634805373097</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="IDK">
+      <created>1634805397205</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1634805397205</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +156,8 @@
     <MESSAGE value="Start" />
     <MESSAGE value="Okay here it all begins" />
     <MESSAGE value="IDK something it autodid" />
-    <option name="LAST_COMMIT_MESSAGE" value="IDK something it autodid" />
+    <MESSAGE value="IDK" />
+    <option name="LAST_COMMIT_MESSAGE" value="IDK" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
