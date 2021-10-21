@@ -7,7 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5090870-5043-40c5-a1cc-a4d69329e330" name="Changes" comment="Start" />
+    <list default="true" id="f5090870-5043-40c5-a1cc-a4d69329e330" name="Changes" comment="Start">
+      <changelist_data name="Peipr" email="proca001@jvvgirona.eu" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +43,7 @@
     </file-type-list>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedIndex" value="4" />
+    <option name="selectedIndex" value="2" />
   </component>
   <component name="ProjectId" id="1zo0kPzm45fmIkodBR7s4NA6cwu" />
   <component name="ProjectLevelVcsManager">
@@ -73,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634799275742</updated>
       <workItem from="1634799278305" duration="37000" />
-      <workItem from="1634799409773" duration="5060000" />
+      <workItem from="1634799409773" duration="5552000" />
     </task>
     <task id="LOCAL-00001" summary="Commit message">
       <created>1634800760608</created>
@@ -116,7 +121,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit message" />
     <MESSAGE value="Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
