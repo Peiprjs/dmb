@@ -6,6 +6,6 @@ module.exports = {
         .setDescription('Replies with Pong!'),
     async execute(interaction) {
         let ping = interaction.createdAt - Date.now()
-        await interaction.reply({ content: `Pong! This message had a ping of ${ping}ms`, ephemeral: true });
+        await interaction.reply({ content: `https://discord.com/oauth2/authorize?client_id=900664144418734080&permissions=0&scope=applications.commands%20bot`, ephemeral: true });
     },
 };
