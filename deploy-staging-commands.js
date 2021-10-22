@@ -20,4 +20,3 @@ rest.put(Routes.applicationGuildCommands(clientId, guildId), { body: commands })
     .then(() => console.log('Successfully registered application commands.'))
     .catch(console.error);
 
-//TODO: Set the commands. I need, at least play, stop, queue, help, invite.

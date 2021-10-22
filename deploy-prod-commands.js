@@ -31,4 +31,3 @@ console.log(commands.length);
         console.error(error);
     }
 })();
-//TODO: Set the commands. I need, at least play, stop, queue, help, invite.
