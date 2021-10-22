@@ -1,6 +1,6 @@
 /////////////////ND Modules///////////////////
 // noinspection JSUnusedLocalSymbols
-
+const ytdl = require('ytdl-core');
 const fs = require('fs');
 const random = require('random')
 function sleep(milliseconds) {
@@ -26,6 +26,12 @@ for (const file of commandFiles) {
 /////////////////Once ready///////////////////
 client.once('ready', () => {
     console.log('Ready!');
+});
+client.once('reconnecting', () => {
+    console.log('Reconnecting!');
+});
+client.once('disconnect', () => {
+    console.log('Disconnect!');
 });
 /////////////////Once interaction///////////////////
 // noinspection SpellCheckingInspection
