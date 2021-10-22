@@ -5,7 +5,8 @@ module.exports = {
         .setName('ping')
         .setDescription('Replies with Pong!'),
     async execute(interaction) {
-        let ping = interaction.createdAt - Date.now()
-        await interaction.reply({ content: `Pong! This message had a ping of ${ping}ms`, ephemeral: true });
+        const sent = await interaction.reply({ content: 'Pinging...', fetchReply: true });
+        interaction.editReply(`Roundtrip latency: ${sent.createdTimestamp - interaction.createdTimestamp}ms`);
+
     },
 };

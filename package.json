@@ -26,6 +26,10 @@
     "ffmpeg": "^0.0.4",
     "fluent-ffmpeg": "^2.1.2",
     "random": "^3.0.6",
-    "ytdl-core": "^4.9.1"
+    "ytdl-core": "^4.9.1",
+    "discord-player": "^5.1.0",
+    "ffmpeg-static": "^4.4.0",
+    "ms": "^3.0.0-canary.1",
+    "opusscript": "^0.0.8"
   }
 }
