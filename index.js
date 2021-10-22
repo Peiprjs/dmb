@@ -1,5 +1,5 @@
 /////////////////ND Modules///////////////////
-// noinspection JSUnusedLocalSymbols
+// noinspection JSUnusedLocalSymbols,JSCheckFunctionSignatures
 // noinspection JSCheckFunctionSignatures
 
 const ytdl = require('ytdl-core');

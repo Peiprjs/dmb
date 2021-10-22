@@ -1,3 +1,5 @@
+// noinspection ES6MissingAwait
+
 const { SlashCommandBuilder } = require('@discordjs/builders');
 
 module.exports = {

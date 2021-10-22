@@ -7,9 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf80f112-ef9e-4c16-8398-0cec5a3aee12" name="Changes" comment="commit message">
+    <list default="true" id="bf80f112-ef9e-4c16-8398-0cec5a3aee12" name="Changes" comment="1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/ping.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/ping.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,7 @@
     <setting file="file://$PROJECT_DIR$/index.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedIndex" value="2" />
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1zoPdhEqUGqp38Lxiz8v0Xjn7RG" />
   <component name="ProjectLevelVcsManager">
@@ -96,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634811566370</updated>
-      <workItem from="1634811572680" duration="17901000" />
+      <workItem from="1634811572680" duration="18889000" />
     </task>
     <task id="LOCAL-00001" summary="WHAT THE FUCK IS GOING ON">
       <created>1634830649226</created>
@@ -175,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634902407560</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1">
+      <created>1634902643188</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1634902643188</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,11 +192,41 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="67c8076f-0bf4-4b2d-8597-966086394695">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="67c8076f-0bf4-4b2d-8597-966086394695" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
@@ -199,7 +237,8 @@
     <MESSAGE value="." />
     <MESSAGE value="I want all suffering to end" />
     <MESSAGE value="commit message" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit message" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
