@@ -1,5 +1,7 @@
 /////////////////ND Modules///////////////////
 // noinspection JSUnusedLocalSymbols
+// noinspection JSCheckFunctionSignatures
+
 const ytdl = require('ytdl-core');
 const fs = require('fs');
 const random = require('random')
